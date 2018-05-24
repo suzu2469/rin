@@ -8,6 +8,9 @@
 @import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css')
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900')
 
+html
+  font-size: 12px
+
 body
   font-family: "Noto Sans Japanese", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
   color: black

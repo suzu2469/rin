@@ -1,5 +1,5 @@
 <template lang="pug">
-  nav.menu.is-size-4
+  nav.menu.is-size-3
     p.menu-content: a(href="#top", v-smooth-scroll="{ duration: 1000 }") TOP
     p.menu-content: a(href="#profile", v-smooth-scroll="{ duration: 1000 }") PROFILE
     p.menu-content: a(href="#works", v-smooth-scroll="{ duration: 1000 }") WORKS
