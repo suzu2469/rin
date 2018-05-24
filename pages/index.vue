@@ -39,9 +39,19 @@
               .column.is-7 株式会社ENO
                 p.is-size-7 WEBフルスタックエンジニア
             .columns.is-mobile
-              .column.is-5 Now
+              .column.is-5 2018 / 03
               .column.is-7 フリーランス
                 p.is-size-7 エンジニア & デザイナー
+            p.profile-text.is-size-5
+              | 高校を卒業し機械を弄る方のエンジニアになった鈴木。本当にやりたいことを探すため勢い余って上京する。<br>
+            p.profile-text
+              | 2年の歳月をかけ「エンジニア x フリーランス」の夢を果たし勢いは留まることを知らず益々加速していく。<br>
+            p.profile-text
+              | やっとのことでつかみ取った生活だが、厳しいフリーランス業界は勢いだけの鈴木に甘くはなかった。<br>
+            p.profile-text
+              | ❛❛迫りくる納期❜❜ ❛❛降りかかる責任❜❜ ❛❛足りない人脈❜❜ 山積の問題に彼はどう立ち向かっていくのか？彼の人生の行く先は？<br>
+            p.profile-text
+              | 次回「鈴木、就職する」　セブンのチャーハンは、うまい。
       section.section#works
         .container
           h1.title.raleway WORKS
@@ -137,6 +147,11 @@ p.body
   margin: 0 auto
   img
     width: 100%
+
+.profile-text
+  margin: 1.0rem 0
+  &:first-of-type
+    margin: 2.0rem 0
 
 h3.namefolio
   font-weight: 600
