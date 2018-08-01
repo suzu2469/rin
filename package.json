@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "bulma": "^0.7.1",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.9.2",
     "nuxt": "^1.4.0",
     "nuxt-property-decorator": "^1.2.0",
     "pug": "^2.0.3",
