@@ -5,8 +5,6 @@
 
 <style lang="sass">
 @import '@/assets/css/bulma-init.scss'
-@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css')
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900')
 
 html
   font-size: 12px
