@@ -20,7 +20,7 @@
             h1.raleway.title.is-size-6 Detail
             .columns.is-mobile
               .column.is-5 Age
-              .column.is-7 21
+              .column.is-7 22
             .columns.is-mobile
               .column.is-5 Residence
               .column.is-7 東京都
@@ -42,51 +42,59 @@
               .column.is-5 2018 / 03
               .column.is-7 フリーランス
                 p.is-size-7 エンジニア & デザイナー
-            p.profile-text.is-size-5
-              | 高校を卒業し機械を弄る方のエンジニアになった鈴木。本当にやりたいことを探すため勢い余って上京する。<br>
-            p.profile-text
-              | 2年の歳月をかけ「エンジニア x フリーランス」の夢を果たし勢いは留まることを知らず益々加速していく。<br>
-            p.profile-text
-              | やっとのことでつかみ取った生活だが、厳しいフリーランス業界は勢いだけの鈴木に甘くはなかった。<br>
-            p.profile-text
-              | ❛❛迫りくる納期❜❜ ❛❛降りかかる責任❜❜ ❛❛足りない人脈❜❜ 山積の問題に彼はどう立ち向かっていくのか？彼の人生の行く先は？<br>
-            p.profile-text
-              | 次回「鈴木、就職する」　セブンのチャーハンは、うまい。
+            .columns.is-mobile
+              .column.is-5 2018 / 06
+              .column.is-7 都内某所
+                p.is-size-7 フロントエンドエンジニア
+            .description
+              p.profile-text
+                | 夢の「フリーランス x エンジニア」の夢を手にした鈴木だったが、度重なるトラブルで心が疲弊してしまっていた…
+              p.profile-text
+                | 「何よりも楽しく働きたい」そんな鈴木に都内某所の会社からオファー！
+              p.profile-text
+                | 度重なる面談の末、鈴木に待ち構えていたのはスーパーホワイト企業だった！
+              p.profile-text
+                | ぬくぬくとぬるま湯に浸かる鈴木…！君の人生はこんなんで良いのか！
+              p.profile-text
+                | 次回、「技術選定でElmを強行採決！？」 サブウェイは、心のふるさと
       section.section#works
         .container
           h1.title.raleway WORKS
           h2.subtitle ポートフォリオ
           p.is-size-3.has-text-centered(style="font-weight: 600; letter-spacing: 0.5em; margin: 3.0rem") 準備中<br>(すまん)
-          //- article.work
-          //-   .work-image
-          //-     img(src="@/assets/img/top/addfriction.png")
-          //-   h1.is-size-6 ADD FRICTION
       section.section#skills
         .container
           h1.title.raleway SKILLS
           h2.subtitle できること
           .columns.is-mobile.skill-icons
-            .column.is-4
-              img(src="@/assets/img/common/HTML5_Badge.svg")
-            .column.is-4
+            .column.is-4.align-center
               img(src="@/assets/img/common/vue.svg")
-            .column.is-4
+            .column.is-4.align-center
+              img(src="@/assets/img/common/react.svg")
+            .column.is-4.align-center
+              img(src="@/assets/img/common/typescript.svg")
+          .columns.is-mobile
+            .column.is-3.align-center
+              img(src="@/assets/img/common/go.svg")
+            .column.is-3.align-center
               img(src="@/assets/img/common/nuxt.svg")
-          .columns.is-mobile
-            .column.is-3
+            .column.is-3.align-center
+              img(src="@/assets/img/common/HTML5_Badge.svg")
+            .column.is-3.align-center
               img(src="@/assets/img/common/sass.svg")
-            .column.is-3
-              img(src="@/assets/img/common/django-logo-positive.svg")
-            .column.is-3
-              img(src="@/assets/img/common/docker.png")
-            .column.is-3
-              img(src="@/assets/img/common/mysql.png")
           .columns.is-mobile
-            .column.is-3
+            .column.is-3.align-center
+              img(src="@/assets/img/common/django-logo-positive.svg")
+            .column.is-3.align-center
+              img(src="@/assets/img/common/docker.png")
+            .column.is-3.align-center
+              img(src="@/assets/img/common/mysql.png")
+            .column.is-3.align-center
               img(src="@/assets/img/common/pug.svg")
-            .column.is-3
+          .columns.is-mobile
+            .column.is-3.align-center
               img(src="@/assets/img/common/node.svg")
-            .column.is-3
+            .column.is-3.align-center
               img(src="@/assets/img/common/stylus.svg")
       section.section#links
         .container
@@ -109,7 +117,7 @@ import Menu from '@/components/Menu.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
 
 export default {
-  components: { Menu, FooterComponent },
+  components: { Menu, FooterComponent }
 }
 </script>
 
@@ -151,7 +159,7 @@ p.body
 .profile-text
   margin: 1.0rem 0
   &:first-of-type
-    margin: 2.0rem 0
+    margin: 2.0rem 0 1.0rem
 
 h3.namefolio
   font-weight: 600
@@ -162,6 +170,10 @@ article.work
 
 .skill-icons
   margin-top: 3.0rem
+
+.align-center
+  display: flex
+  align-items: center
 
 .contact-links
   h3
