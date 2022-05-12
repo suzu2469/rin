@@ -46,17 +46,6 @@
               .column.is-5 2018 / 06
               .column.is-7 都内某所
                 p.is-size-7 フロントエンドエンジニア
-            .description
-              p.profile-text
-                | 夢の「フリーランス x エンジニア」の夢を手にした鈴木だったが、度重なるトラブルで心が疲弊してしまっていた…
-              p.profile-text
-                | 「何よりも楽しく働きたい」そんな鈴木に都内某所の会社からオファー！
-              p.profile-text
-                | 度重なる面談の末、鈴木に待ち構えていたのはスーパーホワイト企業だった！
-              p.profile-text
-                | ぬくぬくとぬるま湯に浸かる鈴木…！君の人生はこんなんで良いのか！
-              p.profile-text
-                | 次回、「技術選定でElmを強行採決！？」 サブウェイは、心のふるさと
       section.section#works
         .container
           h1.title.raleway WORKS
